@@ -21,17 +21,12 @@ body {
   display: block;
 }
 
-.img-cards {
-  display: block;
-  width: 30%;
-}
-
 .grid-2-colums {
   grid-template-columns: 1fr 1fr;
-  padding: 100px 0;
+  padding: 100px;
 }
 
-.grid-2-colums {
+.grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -123,7 +118,6 @@ header a {
 
 main {
   background-color: white;
-  padding: 100px;
 }
 
 main h2 {
